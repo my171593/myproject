@@ -1,0 +1,47 @@
+var firstname="Saida";
+var lastname="Yassin";
+console.log (firstname);
+console.log (lastname);
+console.log("What is the length of the first name");
+var lengthoffirstname=firstname.length;
+console.log(lengthoffirstname);
+console.log("What is the length of the last name");
+var lengthoflastname=lastname.length;
+console.log(lengthoflastname);
+console.log("Firstname+Lastname =");
+var fullname=(firstname).concat(lastname);
+console.log(fullname);
+console.log("numbers");
+console.log("Adding two  numbers together");
+var n1=33;
+console.log(n1);
+var n2=4;
+console.log(n2);
+var add=n1+n2;
+console.log(add);
+console.log("4 to the power 33 =")
+var powern1n2=Math.pow(4,33);
+console.log(powern1n2);
+console.log("replaceing,lowercase,and uppercase");
+var hello="I AM SAIDA YASSIN";
+console.log(hello);
+var lowercase=hello.toLowerCase();
+console.log(lowercase);
+var replacehello=hello.replace("SAIDA","MOHAMED");
+console.log(replacehello);
+var lowercase=replacehello.toLowerCase();
+console.log(lowercase);
+console.log("Squaring");
+var number=625
+console.log(number);
+var squarenumber=Math.sqrt(number);
+console.log(squarenumber);
+console.log("Maximun and Minimun");
+console.log("The list");
+console.log(54,67,5,8);
+var max=Math.max(54,67,5,8);
+var mini=Math.min(54,67,5,8);
+console.log(max);
+console.log(mini);
+console.log("AND THAT IS THE END!!");
+
